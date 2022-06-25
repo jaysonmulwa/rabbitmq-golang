@@ -8,7 +8,7 @@ import (
 
 func main() {
 	fmt.Println("Go RabbitMQ Tutorial")
-	conn, err := amqp.Dial("amqps://vjlmorum:VydD5B7foKbzWZYuFly7eSabK5LiBuzs@cow.rmq2.cloudamqp.com/vjlmorum")
+	conn, err := amqp.Dial("amqps://****:****@****.****.****.****:****/") //Sensored 😇 
 	if err != nil {
 		fmt.Println("Failed Initializing Broker Connection")
 		panic(err)
